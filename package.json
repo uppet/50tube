@@ -1,11 +1,21 @@
 {
   "name": "intro-50tube",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Intro for 50tube club.",
   "main": "index.js",
   "repository": "https://github.com/uppet/50tube",
   "author": "Joyer Huang",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "files": [
+    "index.js",
+    "bin"
+  ],
+  "bin": {
+    "intro-50tube": "./bin/intro.js"
+  },
   "dependencies": {
     "chalk": "^2.4.2"
   }

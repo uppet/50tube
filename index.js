@@ -9,3 +9,6 @@ function intro() {
 
 module.exports = intro
 
+if (require.main === module) {
+    intro();
+}
