@@ -1,6 +1,6 @@
 {
   "name": "intro-50tube",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Intro for 50tube club.",
   "main": "index.js",
   "repository": "https://github.com/uppet/50tube",
